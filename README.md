@@ -38,14 +38,14 @@ The model is trained on 80% of the dataset, with the remaining 20% used for vali
 
 ## Results
 
-The model achieves an accuracy of over 90% on the validation set, demonstrating its effectiveness in gender classification. Further improvements could involve fine-tuning the model architecture or experimenting with more complex neural networks.
+The model achieves an accuracy of over 78.73% on the validation set, demonstrating its effectiveness in gender classification. Further improvements could involve fine-tuning the model architecture or experimenting with more complex neural networks.
 
 ## Usage
 
 To use the model, follow these steps:
 1. Clone the repository.
-2. Install the necessary dependencies listed in `requirements.txt`.
-3. Run the script `train.py` to train the model or `predict.py` to make predictions on new images.
+2. Install the necessary dependencies, like tensorflow, opencv-python
+3. load the models using keras.model.load_model 
 
 ## Contributing
 
